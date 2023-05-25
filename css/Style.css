@@ -1,0 +1,23 @@
+* {
+
+}
+
+body{
+    background-color: #E6EFF6;
+    margin: 0;
+}
+
+section {
+    margin: 40px 10% 40px 10%;
+    display: grid;
+    height: 90vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 5%;
+}
+
+div {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
