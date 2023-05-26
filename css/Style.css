@@ -111,7 +111,7 @@ hr{
 
 a{
     color:#98999D;
-
+    width: 130px;
 }
 
 a:hover{
@@ -122,4 +122,15 @@ a:hover{
     padding: 10px 15px 10px 15px;
     color: white;
     cursor: pointer;
+}
+
+.columnR{
+    height: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+a:hover + hr{
+    opacity: 0;
 }
